@@ -1,8 +1,8 @@
-#Brain Tumor Detection with CNN
+## Brain Tumor Detection with CNN
 
 This project uses a **Convolutional Neural Network (CNN)** to classify brain MRI images as either containing a **tumor** or being **healthy**.
 
-#Objective
+# Objective
 
 The main goal of this model is to predict whether a brain image shows signs of a **cancerous tumor** or is healthy using deep learning techniques.
 
@@ -13,7 +13,7 @@ The main goal of this model is to predict whether a brain image shows signs of a
 - ImageDataGenerator (for image preprocessing)
 - Matplotlib (for visualization)
 
-#Dataset
+# Dataset
 
 The brain image dataset was obtained from Kaggle:
 [Brain Tumor Classification with Simple CNN](https://www.kaggle.com/boneacrabonjac/brain-tumor-classification-with-simple-cnn)
@@ -22,7 +22,7 @@ It contains two classes:
 - Brain Tumor
 - Healthy
 
-#Model Architecture
+# Model Architecture
 
 The CNN model consists of:
 
@@ -32,7 +32,7 @@ The CNN model consists of:
 - Dropout layer (to prevent overfitting)
 - Sigmoid activation in the output layer (for binary classification)
 
-#Evaluation
+# Evaluation
 
 The model was also tested with images from a **different dataset**, including new examples of both tumor and healthy brains. The model performed well and was able to generalize beyond the original training data.
 
